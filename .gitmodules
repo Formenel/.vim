@@ -25,3 +25,6 @@
 [submodule "pythide/py.test"]
 	path = pythide/py.test
 	url = https://github.com/alfredodeza/pytest.vim.git
+[submodule "bundle/colorizer"]
+	path = bundle/colorizer
+	url = git://github.com/lilydjwg/colorizer.git
