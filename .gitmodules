@@ -28,3 +28,9 @@
 [submodule "bundle/colorizer"]
 	path = bundle/colorizer
 	url = https://github.com/lilydjwg/colorizer.git
+[submodule "bundle/YouCompleteMe"]
+	path = bundle/YouCompleteMe
+	url = https://github.com/Valloric/YouCompleteMe
+[submodule "bundle/vim-fswitch"]
+	path = bundle/vim-fswitch
+	url = https://github.com/derekwyatt/vim-fswitch.git

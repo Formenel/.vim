@@ -45,8 +45,12 @@ autocmd FileType cpp set cino=g0
 map <leader>g :GundoToggle<CR>
 map <leader>n :NERDTreeToggle<CR>
 map <leader>b :buffers<CR>
+map <C-t> :FSHere<CR>
+map <C-]> :YcmCompleter GoTo<CR>
 
 set statusline=%{fugitive#statusline()}%t%m%r%y%=%c\ %l/%L\ %P
+
+autocmd FileType c,cpp autocmd BufWritePre * %s/\s\+$//e
 
 colorscheme inkpot
 
